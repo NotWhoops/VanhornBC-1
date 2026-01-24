@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using VanhornBC1.Services;
 
 namespace VanhornBC1.Controllers
 {
@@ -10,6 +11,18 @@ namespace VanhornBC1.Controllers
     [Route("api/[controller]")]
     public class RPSController : ControllerBase
     {
-        
+        private readonly RPSServices _rpsServices;
+
+            public RPSController(RPSServices rpsServices)
+            {
+                _rpsServices = rpsServices;
+            }
+            [HttpGet]
+            [Route("RPSServices/{option}")]
+            public string RPSServices(string option)
+            {
+                return _rpsServices.
+                RPS(option);
+            }
     }
 }
