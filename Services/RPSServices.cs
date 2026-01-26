@@ -22,13 +22,30 @@ namespace VanhornBC1.Services
             int index = rand.Next(RPS.Length);
 
 
-            if (option != "Rock Paper Scissors Lizard Spock")
+            
+            if (option == "Rock")
             {
-                return "Thats not a option. Please Enter Rock or Paper or Scissors or Lizard or Spock";
+                return $"RPS Program says: {RPS[index]}";
+            } 
+            if (option == "Paper")
+            {
+                return $"RPS Program says: {RPS[index]}";
+            }
+            if (option == "Scissors")
+            {
+                return $"RPS Program says: {RPS[index]}";
+            }
+            if (option == "Lizard")
+            {
+                return $"RPS Program says: {RPS[index]}";
+            }
+            if (option == "Spock")
+            {
+                return $"RPS Program says: {RPS[index]}";
             }
             else
-            {   
-                return $"RPS Program says: {RPS[index]}";
+            {
+                return "Thats not a option. Please Enter Rock or Paper or Scissors or Lizard or Spock";
             }
         }
     }
