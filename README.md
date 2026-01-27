@@ -1,9 +1,9 @@
 // Brandon Van Horn 
 
- // Date Revised: 1/21/26 
+ // Date Revised: 1/27/26 
 
  // Rock Paper Scissor Lizard Spock - Prototype and EndPoint
 
- // Brief Description of what you did. 
+ // created a rock paper scissors lizard spock game that gives back the cpu response hosted on azure  
 
 // Peer Review
