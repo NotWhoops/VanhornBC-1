@@ -7,7 +7,7 @@ namespace VanhornBC1.Services
 {
     public class RPSServices
     {
-        public string RPS(string option)
+        public string RPS(string choice)
         {
 
         string[] RPS ={
@@ -23,29 +23,29 @@ namespace VanhornBC1.Services
 
 
             
-            if (option == "Rock")
+            if (choice == "Rock")
             {
                 return $"RPS Program says: {RPS[index]}";
             } 
-            if (option == "Paper")
+            if (choice == "Paper")
             {
                 return $"RPS Program says: {RPS[index]}";
             }
-            if (option == "Scissors")
+            if (choice == "Scissors")
             {
                 return $"RPS Program says: {RPS[index]}";
             }
-            if (option == "Lizard")
+            if (choice == "Lizard")
             {
                 return $"RPS Program says: {RPS[index]}";
             }
-            if (option == "Spock")
+            if (choice == "Spock")
             {
                 return $"RPS Program says: {RPS[index]}";
             }
             else
             {
-                return "Thats not a option. Please Enter Rock or Paper or Scissors or Lizard or Spock";
+                return "Thats not a choice. Please Enter Rock or Paper or Scissors or Lizard or Spock";
             }
         }
     }
