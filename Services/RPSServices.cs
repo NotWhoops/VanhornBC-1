@@ -7,10 +7,10 @@ namespace VanhornBC1.Services
 {
     public class RPSServices
     {
-        public string RPS(string choice)
+        public string RPS()
         {
 
-        string[] RPS ={
+        string[] RPS = {
         "Rock",
         "Paper",
         "Scissors",
@@ -22,31 +22,33 @@ namespace VanhornBC1.Services
             int index = rand.Next(RPS.Length);
 
 
-            
-            if (choice == "Rock")
-            {
-                return $"RPS Program says: {RPS[index]}";
-            } 
-            if (choice == "Paper")
-            {
-                return $"RPS Program says: {RPS[index]}";
-            }
-            if (choice == "Scissors")
-            {
-                return $"RPS Program says: {RPS[index]}";
-            }
-            if (choice == "Lizard")
-            {
-                return $"RPS Program says: {RPS[index]}";
-            }
-            if (choice == "Spock")
-            {
-                return $"RPS Program says: {RPS[index]}";
-            }
-            else
-            {
-                return "Thats not a choice. Please Enter Rock or Paper or Scissors or Lizard or Spock";
-            }
+            return $"RPS Program says: {RPS[index]}";
+
+            //ignore this just was testing stuff for the other project
+            // if (choice == "Rock")
+            // {
+               
+            // } 
+            // if (choice == "Paper")
+            // {
+            //     return $"RPS Program says: {RPS[index]}";
+            // }
+            // if (choice == "Scissors")
+            // {
+            //     return $"RPS Program says: {RPS[index]}";
+            // }
+            // if (choice == "Lizard")
+            // {
+            //     return $"RPS Program says: {RPS[index]}";
+            // }
+            // if (choice == "Spock")
+            // {
+            //     return $"RPS Program says: {RPS[index]}";
+            // }
+            // else
+            // {
+            //     return "Thats not a choice. Please Enter Rock or Paper or Scissors or Lizard or Spock";
+            // }
         }
     }
 }

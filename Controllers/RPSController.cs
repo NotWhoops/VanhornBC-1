@@ -18,11 +18,10 @@ namespace VanhornBC1.Controllers
                 _rpsServices = rpsServices;
             }
             [HttpGet]
-            [Route("RPSServices/{choice}")]
-            public string RPSServices(string choice)
+            [Route("RPSServices")]
+            public string RPSServices()
             {
-                return _rpsServices.
-                RPS(choice);
+                return _rpsServices.RPS();
             }
     }
 }
