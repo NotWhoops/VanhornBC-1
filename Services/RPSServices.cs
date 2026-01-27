@@ -27,7 +27,7 @@ namespace VanhornBC1.Services
             //ignore this just was testing stuff for the other project
             // if (choice == "Rock")
             // {
-               
+            //     return $"RPS Program says: {RPS[index]}";
             // } 
             // if (choice == "Paper")
             // {
