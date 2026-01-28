@@ -23,32 +23,7 @@ namespace VanhornBC1.Services
 
 
             return $"RPS Program says: {RPS[index]}";
-
-            //ignore this just was testing stuff for the other project
-            // if (choice == "Rock")
-            // {
-            //     return $"RPS Program says: {RPS[index]}";
-            // } 
-            // if (choice == "Paper")
-            // {
-            //     return $"RPS Program says: {RPS[index]}";
-            // }
-            // if (choice == "Scissors")
-            // {
-            //     return $"RPS Program says: {RPS[index]}";
-            // }
-            // if (choice == "Lizard")
-            // {
-            //     return $"RPS Program says: {RPS[index]}";
-            // }
-            // if (choice == "Spock")
-            // {
-            //     return $"RPS Program says: {RPS[index]}";
-            // }
-            // else
-            // {
-            //     return "Thats not a choice. Please Enter Rock or Paper or Scissors or Lizard or Spock";
-            // }
+            
         }
     }
 }
