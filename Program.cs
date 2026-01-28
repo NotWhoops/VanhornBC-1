@@ -12,7 +12,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddCors(options =>
 {
    options.AddPolicy("DemoDevClient", policy => {
-        policy.WithOrigins("http://127.0.0.1:5500")
+        policy.WithOrigins("http://127.0.0.1:5500", "https://rpslsprototype-heakdjezgtcvhfap.westus3-01.azurewebsites.net")
         .AllowAnyHeader()
         .AllowAnyMethod();
     });

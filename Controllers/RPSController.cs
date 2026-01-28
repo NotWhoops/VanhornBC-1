@@ -8,7 +8,7 @@ using VanhornBC1.Services;
 namespace VanhornBC1.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class RPSController : ControllerBase
     {
         private readonly RPSServices _rpsServices;
