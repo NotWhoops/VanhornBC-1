@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bmdva\\OneDrive\\Documents\\Combine Season 8\\Level 2\\Week 3\\VanhornBC#1\\Todov4.csproj": {}
+    "/Users/vanessaacuna/VanhornBC-1/Todov4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bmdva\\OneDrive\\Documents\\Combine Season 8\\Level 2\\Week 3\\VanhornBC#1\\Todov4.csproj": {
+    "/Users/vanessaacuna/VanhornBC-1/Todov4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bmdva\\OneDrive\\Documents\\Combine Season 8\\Level 2\\Week 3\\VanhornBC#1\\Todov4.csproj",
+        "projectUniqueName": "/Users/vanessaacuna/VanhornBC-1/Todov4.csproj",
         "projectName": "Todov4",
-        "projectPath": "C:\\Users\\bmdva\\OneDrive\\Documents\\Combine Season 8\\Level 2\\Week 3\\VanhornBC#1\\Todov4.csproj",
-        "packagesPath": "C:\\Users\\bmdva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bmdva\\OneDrive\\Documents\\Combine Season 8\\Level 2\\Week 3\\VanhornBC#1\\obj\\",
+        "projectPath": "/Users/vanessaacuna/VanhornBC-1/Todov4.csproj",
+        "packagesPath": "/Users/vanessaacuna/.nuget/packages/",
+        "outputPath": "/Users/vanessaacuna/VanhornBC-1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bmdva\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/vanessaacuna/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
